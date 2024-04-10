@@ -1,0 +1,336 @@
+.email-verification-page {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+  }
+  
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f0f0f0;
+
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .page-header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page-header nav ul li {
+    margin-right: 20px;
+  }
+  
+  .page-header nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .search-and-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: max-content;
+  }
+  
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  
+  .page-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .email-icon {
+    margin-bottom: 20px;
+  }
+  
+  .email-description {
+    font-size: 16px;
+    color: #696969;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .email-description span {
+    font-weight: bold;
+  }
+  
+  .email-instructions {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .email-note {
+    font-size: 14px;
+    color: #696969;
+    margin-bottom: 10px;
+  }
+  
+  .email-note a {
+    color: #ea4c89;
+    text-decoration: none;
+  }
+  
+  .email-change {
+    font-size: 14px;
+    color: #ea4c89;
+    margin-bottom: 10px;
+  }
+  
+  .email-change a {
+    color: #ea4c89;
+    text-decoration: none;
+  }
+  
+  .page-footer {
+    background-color: #f0f0f0;
+    padding: 20px 40px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-dribbble {
+    font-size: 14px;
+    color: #696969;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .navigation-page {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .pagee-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  .content-section {
+    width: 20%;
+    margin-bottom: 40px;
+  }
+  
+  .content-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .content-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .content-section ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .social-links {
+    display: flex;
+  }
+  
+  .social-link {
+    margin-left: 10px;
+  }
+  
+  .social-link img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .page-header {
+      padding: 15px 20px;
+    }
+
+    .search-and-profile {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+      }
+      
+  
+    .logo img {
+      width: 80px;
+    }
+  
+    .page-header nav ul li {
+      margin-right: 15px;
+    }
+  
+    .search input {
+      padding: 6px 10px;
+    }
+  
+    .profile img {
+      width: 35px;
+      height: 35px;
+      margin-left: 15px;
+    }
+  
+    .page-content {
+      padding: 30px;
+    }
+  
+    .page-title {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .email-description,
+    .email-instructions {
+      font-size: 14px;
+    }
+  
+    .email-note,
+    .email-change {
+      font-size: 12px;
+    }
+  
+    .page-footer {
+      padding: 15px 20px;
+    }
+  
+    .about-dribbble {
+      font-size: 12px;
+    }
+  
+    .copyright {
+      font-size: 10px;
+    }
+  
+    .content-section {
+      width: 33.33%;
+      margin-bottom: 30px;
+    }
+  
+    .content-section h2 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+  
+    .content-section ul li a {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .page-header {
+      padding: 10px 15px;
+    }
+  
+    .logo img {
+      width: 60px;
+    }
+  
+    .page-header nav ul li {
+      margin-right: 10px;
+    }
+  
+    .search input {
+      padding: 4px 8px;
+    }
+  
+    .profile img {
+      width: 30px;
+      height: 30px;
+      margin-left: 10px;
+    }
+  
+    .page-content {
+      padding: 20px;
+    }
+  
+    .page-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .email-description,
+    .email-instructions {
+      font-size: 12px;
+    }
+  
+    .email-note,
+    .email-change {
+      font-size: 10px;
+    }
+  
+    .page-footer {
+      padding: 10px 15px;
+    }
+  
+    .about-dribbble {
+      font-size: 10px;
+    }
+  
+    .copyright {
+      font-size: 8px;
+    }
+  
+    .pagee-content {
+      padding: 20px;
+    }
+  
+    .content-section {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+  
+    .content-section h2 {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+  
+    .content-section ul li a {
+      font-size: 10px;
+    }
+  }
